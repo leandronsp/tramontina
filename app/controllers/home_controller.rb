@@ -8,7 +8,7 @@ class HomeController < Chespirito::Controller
     user  = Database.users[email]
 
     if user
-      body = view("#{VIEWS_PATH}/home.html") .gsub(/{{email}}/, email)
+      body = view("#{VIEWS_PATH}/home.html").gsub(/{{email}}/, email)
     else
       body = view("#{VIEWS_PATH}/login.html")
     end
