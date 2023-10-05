@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    adelnor (0.0.7)
+      rack
+    chespirito (0.0.4)
+      adelnor
+      rack
+    rack (3.0.8)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
+    webrick (1.8.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  adelnor (~> 0.0.7)
+  chespirito (~> 0.0.4)
+  rackup
+
+BUNDLED WITH
+   2.4.10
