@@ -3,7 +3,7 @@ GEM
   specs:
     adelnor (0.0.7)
       rack
-    chespirito (0.0.4)
+    chespirito (0.0.5)
       adelnor
       rack
     rack (3.0.8)
@@ -17,7 +17,7 @@ PLATFORMS
 
 DEPENDENCIES
   adelnor (~> 0.0.7)
-  chespirito (~> 0.0.4)
+  chespirito (~> 0.0.5)
   rackup
 
 BUNDLED WITH
