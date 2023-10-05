@@ -1,6 +1,6 @@
 # tramontina
 
-A sample CRUD using Chespirito and Adelnor.
+Yet another CRUD but this time using Chespirito and Adelnor.
 
 ## Requirements
 
